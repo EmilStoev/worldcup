@@ -12,7 +12,7 @@ today = ('/'.join(a))
 
 sss = 'fifa'
 # data = pd.read_csv(r'C:\Users\emils\PycharmProjects\worldCup\' + {sss} + '.csv')
-data = pd.read_csv(r'C:\Users\emils\PycharmProjects\worldCup\a' + sss + '.csv')
+data = pd.read_csv(r'a' + sss + '.csv')
 # workdata = pd.read_csv(r'C:\Users\emils\PycharmProjects\worldCup\nepredhorata.csv')
 # internaldata = pd.read_csv(r'C:\Users\emils\PycharmProjects\worldCup\a' + sss + '.csv')
 # predictiontable = pd.read_csv(r'C:\Users\emils\PycharmProjects\worldCup\PREDICTIONTABLE.csv')
