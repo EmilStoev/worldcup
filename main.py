@@ -43,6 +43,7 @@ if selected == 'Искам да видя мачовете':
 
 if selected == 'Искам да видя на кое място съм':
     leader = pd.read_csv('leaderboard.csv')
+    test = board.sort_values('Точки', ascending=False)
     b = [x for x in range(1, 12)]
     leader['Място'] = b
     leader.set_index('Място', inplace=True)
