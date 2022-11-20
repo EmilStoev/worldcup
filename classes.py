@@ -13,8 +13,8 @@ def next_game(data):
     return nextgame
 
 def get_flag(home,away):
-    flag1 = Image.open(r'C:\Users\emils\PycharmProjects\worldCup\flags/a' + home + '.jpg') # C:\Users\emils\PycharmProjects\worldCup\
-    flag2 = Image.open(r'C:\Users\emils\PycharmProjects\worldCup\flags/a' + away + '.jpg')
+    flag1 = Image.open(r'flags\a' + home + '.jpg')
+    flag2 = Image.open(r'flags\a' + away + '.jpg')
     return flag1,flag2
 
 def check_if_participating(name):
