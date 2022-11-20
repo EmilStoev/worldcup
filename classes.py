@@ -4,8 +4,8 @@ from PIL import Image
 
 def next_game(data):
     for i, res in enumerate(data.Result):
+        st.write(res)
         if type(res) is str:
-            st.write(res)
             continue
         if np.isnan(res):
             nextgame = str(data['Home Team'][i]) + ' - '  + str(data['Away Team'][i])
